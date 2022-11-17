@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+}
+.container-div{
+    margin-top: 17%;
+}
+.container-div h1{
+    color: #000;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+.buttons{
+    display: inline-flex;
+}
+.buttons button{
+    margin-left: 12px;
+    padding: 7px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.buttons button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
